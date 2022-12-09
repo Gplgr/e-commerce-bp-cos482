@@ -1,0 +1,25 @@
+{
+  "name": "Produto",
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "price",
+      "fieldType": "Double"
+    }
+  ],
+  "relationships": [],
+  "entityTableName": "Produto",
+  "service": "serviceClass",
+  "dto": "mapstruct",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "pagination": "no",
+  "embedded": false,
+  "applications": "*",
+  "skipFakeData": true,
+  "changelogDate": "20221116000001"
+}

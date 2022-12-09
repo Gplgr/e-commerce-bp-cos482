@@ -1,0 +1,32 @@
+{
+  "fields": [
+    {
+      "fieldName": "userID",
+      "fieldType": "String",
+      "fieldReadOnly": true
+    },
+    {
+      "fieldName": "productQuantity",
+      "fieldType": "Integer",
+      "fieldReadOnly": true
+    },
+    {
+      "fieldName": "confirmation",
+      "fieldType": "Boolean"
+    }
+  ],
+  "relationships": [],
+  "entityType": "user-task-form",
+  "processBpmnId": "EcommerceProcess",
+  "processEntityName": "EcommerceProcess",
+  "taskBpmnId": "TaskConfirmacao",
+  "domainEntityName": "Ecommerce",
+  "service": "serviceClass",
+  "dto": "mapstruct",
+  "jpaMetamodelFiltering": false,
+  "readOnly": false,
+  "pagination": "no",
+  "skipFakeData": true,
+  "name": "TaskConfirmacao",
+  "changelogDate": "20221116000001"
+}

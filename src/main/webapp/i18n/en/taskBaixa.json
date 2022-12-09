@@ -1,0 +1,26 @@
+{
+  "ecommerceApp": {
+    "taskBaixa": {
+      "home": {
+        "title": "Task Baixas",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Task Baixa",
+        "createOrEditLabel": "Create or edit a Task Baixa",
+        "notFound": "No Task Baixas found"
+      },
+      "created": "A new Task Baixa is created with identifier {{ param }}",
+      "updated": "A Task Baixa is updated with identifier {{ param }}",
+      "deleted": "A Task Baixa is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Task Baixa {{ id }}?"
+      },
+      "detail": {
+        "title": "Task Baixa"
+      },
+      "id": "ID",
+      "userID": "User ID",
+      "productQuantity": "Product Quantity",
+      "productsAvailable": "Products Available"
+    }
+  }
+}

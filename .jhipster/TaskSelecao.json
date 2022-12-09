@@ -1,0 +1,35 @@
+{
+  "fields": [
+    {
+      "fieldName": "userID",
+      "fieldType": "String",
+      "fieldReadOnly": true
+    },
+    {
+      "fieldName": "productQuantity",
+      "fieldType": "Integer"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "produto",
+      "otherEntityRelationshipName": "TaskSelecao",
+      "otherEntityField": "name",
+      "relationshipName": "produto"
+    }
+  ],
+  "entityType": "user-task-form",
+  "processBpmnId": "EcommerceProcess",
+  "processEntityName": "EcommerceProcess",
+  "taskBpmnId": "TaskSelecao",
+  "domainEntityName": "Ecommerce",
+  "service": "serviceClass",
+  "dto": "mapstruct",
+  "jpaMetamodelFiltering": false,
+  "readOnly": false,
+  "pagination": "no",
+  "skipFakeData": true,
+  "name": "TaskSelecao",
+  "changelogDate": "20221116000001"
+}

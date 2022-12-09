@@ -1,0 +1,24 @@
+{
+  "ecommerceApp": {
+    "ecommerceStartForm": {
+      "home": {
+        "title": "Ecommerce Start Forms",
+        "refreshListLabel": "Atualizar lista",
+        "createLabel": "Criar novo Ecommerce Start Form",
+        "createOrEditLabel": "Criar ou editar Ecommerce Start Form",
+        "notFound": "Nenhum Ecommerce Start Form encontrado"
+      },
+      "created": "Um novo Ecommerce Start Form foi criado com o identificador {{ param }}",
+      "updated": "Um Ecommerce Start Form foi atualizado com o identificador {{ param }}",
+      "deleted": "Um Ecommerce Start Form foi excluído com o identificador {{ param }}",
+      "delete": {
+        "question": "Tem certeza de que deseja excluir Ecommerce Start Form {{ id }}?"
+      },
+      "detail": {
+        "title": "Ecommerce Start Form"
+      },
+      "id": "ID",
+      "userID": "User ID"
+    }
+  }
+}
