@@ -1,0 +1,21 @@
+{
+  "fields": [
+    {
+      "fieldName": "userID",
+      "fieldType": "String"
+    }
+  ],
+  "relationships": [],
+  "entityType": "start-form",
+  "processBpmnId": "EcommerceProcess",
+  "processEntityName": "EcommerceProcess",
+  "domainEntityName": "Ecommerce",
+  "service": "serviceClass",
+  "dto": "mapstruct",
+  "jpaMetamodelFiltering": false,
+  "readOnly": false,
+  "pagination": "no",
+  "name": "EcommerceStartForm",
+  "changelogDate": "20221116000001",
+  "skipFakeData": true
+}

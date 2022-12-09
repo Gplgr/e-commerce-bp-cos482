@@ -1,0 +1,31 @@
+{
+  "ecommerceApp": {
+    "ecommerceProcess": {
+      "home": {
+        "title": "Ecommerce Processes",
+        "refreshListLabel": "Atualizar lista",
+        "createLabel": "Criar novo Ecommerce Process",
+        "createOrEditLabel": "Criar ou editar Ecommerce Process",
+        "notFound": "Nenhum Ecommerce Process encontrado"
+      },
+      "created": "Um novo Ecommerce Process foi criado com o identificador {{ param }}",
+      "updated": "Um Ecommerce Process foi atualizado com o identificador {{ param }}",
+      "deleted": "Um Ecommerce Process foi excluído com o identificador {{ param }}",
+      "delete": {
+        "question": "Tem certeza de que deseja excluir Ecommerce Process {{ id }}?"
+      },
+      "detail": {
+        "title": "Ecommerce Process"
+      },
+      "id": "ID",
+      "userID": "User ID",
+      "productQuantity": "Product Quantity",
+      "confirmation": "Confirmation",
+      "invoiceCode": "Invoice Code",
+      "invoicePrice": "Invoice Price",
+      "saleDate": "Sale Date",
+      "productsAvailable": "Products Available",
+      "status": "Status"
+    }
+  }
+}

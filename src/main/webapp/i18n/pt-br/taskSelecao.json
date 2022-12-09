@@ -1,0 +1,26 @@
+{
+  "ecommerceApp": {
+    "taskSelecao": {
+      "home": {
+        "title": "Task Selecaos",
+        "refreshListLabel": "Atualizar lista",
+        "createLabel": "Criar novo Task Selecao",
+        "createOrEditLabel": "Criar ou editar Task Selecao",
+        "notFound": "Nenhum Task Selecao encontrado"
+      },
+      "created": "Um novo Task Selecao foi criado com o identificador {{ param }}",
+      "updated": "Um Task Selecao foi atualizado com o identificador {{ param }}",
+      "deleted": "Um Task Selecao foi excluído com o identificador {{ param }}",
+      "delete": {
+        "question": "Tem certeza de que deseja excluir Task Selecao {{ id }}?"
+      },
+      "detail": {
+        "title": "Task Selecao"
+      },
+      "id": "ID",
+      "userID": "User ID",
+      "productQuantity": "Product Quantity",
+      "produto": "Produto"
+    }
+  }
+}

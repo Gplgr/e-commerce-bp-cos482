@@ -1,0 +1,26 @@
+{
+  "ecommerceApp": {
+    "taskConfirmacao": {
+      "home": {
+        "title": "Task Confirmacaos",
+        "refreshListLabel": "Atualizar lista",
+        "createLabel": "Criar novo Task Confirmacao",
+        "createOrEditLabel": "Criar ou editar Task Confirmacao",
+        "notFound": "Nenhum Task Confirmacao encontrado"
+      },
+      "created": "Um novo Task Confirmacao foi criado com o identificador {{ param }}",
+      "updated": "Um Task Confirmacao foi atualizado com o identificador {{ param }}",
+      "deleted": "Um Task Confirmacao foi excluído com o identificador {{ param }}",
+      "delete": {
+        "question": "Tem certeza de que deseja excluir Task Confirmacao {{ id }}?"
+      },
+      "detail": {
+        "title": "Task Confirmacao"
+      },
+      "id": "ID",
+      "userID": "User ID",
+      "productQuantity": "Product Quantity",
+      "confirmation": "Confirmation"
+    }
+  }
+}

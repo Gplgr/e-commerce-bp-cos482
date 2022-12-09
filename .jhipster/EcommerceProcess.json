@@ -1,0 +1,48 @@
+{
+  "fields": [
+    {
+      "fieldName": "userID",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "productQuantity",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "confirmation",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "invoiceCode",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "invoicePrice",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "saleDate",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "productsAvailable",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "status",
+      "fieldType": "Boolean"
+    }
+  ],
+  "relationships": [],
+  "entityType": "process-binding",
+  "processBpmnId": "EcommerceProcess",
+  "domainEntityName": "Ecommerce",
+  "service": "serviceClass",
+  "dto": "mapstruct",
+  "jpaMetamodelFiltering": false,
+  "readOnly": false,
+  "pagination": "no",
+  "name": "EcommerceProcess",
+  "changelogDate": "20221123000001",
+  "skipFakeData": true
+}

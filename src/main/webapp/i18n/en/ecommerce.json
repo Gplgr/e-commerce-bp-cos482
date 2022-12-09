@@ -1,0 +1,24 @@
+{
+  "ecommerceApp": {
+    "ecommerce": {
+      "home": {
+        "title": "Ecommerces",
+        "refreshListLabel": "Refresh list",
+        "notFound": "No Ecommerces found"
+      },
+      "detail": {
+        "title": "Ecommerce"
+      },
+      "id": "ID",
+      "userID": "User ID",
+      "productQuantity": "Product Quantity",
+      "confirmation": "Confirmation",
+      "invoiceCode": "Invoice Code",
+      "invoicePrice": "Invoice Price",
+      "saleDate": "Sale Date",
+      "productsAvailable": "Products Available",
+      "status": "Status",
+      "produto": "Produto"
+    }
+  }
+}

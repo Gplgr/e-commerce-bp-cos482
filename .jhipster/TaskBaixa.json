@@ -1,0 +1,31 @@
+{
+  "fields": [
+    {
+      "fieldName": "userID",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "productQuantity",
+      "fieldType": "Integer",
+      "fieldReadOnly": true
+    },
+    {
+      "fieldName": "productsAvailable",
+      "fieldType": "Integer"
+    }
+  ],
+  "relationships": [],
+  "entityType": "user-task-form",
+  "processBpmnId": "EcommerceProcess",
+  "processEntityName": "EcommerceProcess",
+  "taskBpmnId": "TaskBaixa",
+  "domainEntityName": "Ecommerce",
+  "service": "serviceClass",
+  "dto": "mapstruct",
+  "jpaMetamodelFiltering": false,
+  "readOnly": false,
+  "pagination": "no",
+  "skipFakeData": true,
+  "name": "TaskBaixa",
+  "changelogDate": "20221116000001"
+}
