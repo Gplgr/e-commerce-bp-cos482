@@ -34,7 +34,6 @@ import UserOAuth2Service from '@/entities/user/user.oauth2.service';
 
 import EcommerceService from '@/entities/ecommerce/ecommerce.service';
 import EcommerceProcessService from '@/entities/ecommerce-process/ecommerce-process.service';
-import ProductService from '@/entities/product/product.service';
 import ProdutoService from '@/entities/produto/produto.service';
 // jhipster-needle-add-entity-service-to-main-import - JHipster will import entities services here
 
@@ -103,7 +102,6 @@ new Vue({
     translationService: () => translationService,
     ecommerceService: () => new EcommerceService(),
     ecommerceProcessService: () => new EcommerceProcessService(),
-    productService: () => new ProductService(),
     produtoService: () => new ProdutoService(),
     // jhipster-needle-add-entity-service-to-main - JHipster will import entities services here
     accountService: () => accountService,

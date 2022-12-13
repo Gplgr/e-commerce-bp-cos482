@@ -37,7 +37,7 @@ public class EmissaoDelegate implements JavaDelegate {
 
         if (ecommerce.getProduto() != null) {
             Produto produto = this.produtoRepo.findById(ecommerce.getProduto().getId()).get();
-            int preco = produto.getPrice();
+            double preco = produto.getPrice();
             int quantidade = ecommerce.getProductQuantity();
             double custo = (double) preco * quantidade;
             ecommerce.setInvoicePrice(custo);

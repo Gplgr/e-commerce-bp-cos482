@@ -34,8 +34,8 @@ class ProdutoResourceIT {
     private static final String DEFAULT_NAME = "AAAAAAAAAA";
     private static final String UPDATED_NAME = "BBBBBBBBBB";
 
-    private static final Integer DEFAULT_PRICE = 1;
-    private static final Integer UPDATED_PRICE = 2;
+    private static final Double DEFAULT_PRICE = 1D;
+    private static final Double UPDATED_PRICE = 2D;
 
     private static final String ENTITY_API_URL = "/api/produtos";
     private static final String ENTITY_API_URL_ID = ENTITY_API_URL + "/{id}";
@@ -134,7 +134,7 @@ class ProdutoResourceIT {
             .andExpect(content().contentType(MediaType.APPLICATION_JSON_VALUE))
             .andExpect(jsonPath("$.[*].id").value(hasItem(produto.getId().intValue())))
             .andExpect(jsonPath("$.[*].name").value(hasItem(DEFAULT_NAME)))
-            .andExpect(jsonPath("$.[*].price").value(hasItem(DEFAULT_PRICE)));
+            .andExpect(jsonPath("$.[*].price").value(hasItem(DEFAULT_PRICE.doubleValue())));
     }
 
     @Test
@@ -150,7 +150,7 @@ class ProdutoResourceIT {
             .andExpect(content().contentType(MediaType.APPLICATION_JSON_VALUE))
             .andExpect(jsonPath("$.id").value(produto.getId().intValue()))
             .andExpect(jsonPath("$.name").value(DEFAULT_NAME))
-            .andExpect(jsonPath("$.price").value(DEFAULT_PRICE));
+            .andExpect(jsonPath("$.price").value(DEFAULT_PRICE.doubleValue()));
     }
 
     @Test

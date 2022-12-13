@@ -37,9 +37,13 @@
             <font-awesome-icon icon="asterisk" />
             <span v-text="$t('global.menu.entities.ecommerce')">Ecommerce</span>
           </b-dropdown-item>
-          <b-dropdown-item to="/product">
+          <b-dropdown-item to="/produto">
             <font-awesome-icon icon="asterisk" />
-            <span v-text="$t('global.menu.entities.product')">Product</span>
+            <span v-text="$t('global.menu.entities.produto')">Produto</span>
+          </b-dropdown-item>
+          <b-dropdown-item to="/ecommerce">
+            <font-awesome-icon icon="asterisk" />
+            <span v-text="$t('global.menu.entities.ecommerce')">Ecommerce</span>
           </b-dropdown-item>
           <b-dropdown-item to="/produto">
             <font-awesome-icon icon="asterisk" />

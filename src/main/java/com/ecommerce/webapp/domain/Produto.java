@@ -24,7 +24,7 @@ public class Produto implements Serializable {
     private String name;
 
     @Column(name = "price")
-    private Integer price;
+    private Double price;
 
     // jhipster-needle-entity-add-field - JHipster will add fields here
     public Long getId() {
@@ -53,16 +53,16 @@ public class Produto implements Serializable {
         this.name = name;
     }
 
-    public Integer getPrice() {
+    public Double getPrice() {
         return this.price;
     }
 
-    public Produto price(Integer price) {
+    public Produto price(Double price) {
         this.price = price;
         return this;
     }
 
-    public void setPrice(Integer price) {
+    public void setPrice(Double price) {
         this.price = price;
     }
 
